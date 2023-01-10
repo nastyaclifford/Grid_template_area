@@ -1,0 +1,31 @@
+.container{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-areas: 
+    "top top top"
+    "middle middle one"
+    "two two one"
+    "two two one"
+    "bottom bottom bottom";
+}
+.top{
+    grid-area: top;
+    border: 1px solid black
+}
+.middle{
+    grid-area: middle;
+    border: 1px solid black
+}
+.one{
+    grid-area: one;
+    border: 1px solid black
+}
+.two{
+    grid-area: two;
+    border: 1px solid black
+}
+.bottom{
+    grid-area: bottom;
+    border: 1px solid black
+}
